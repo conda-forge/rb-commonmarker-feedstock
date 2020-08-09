@@ -1,5 +1,5 @@
 {% set name = "commonmarker" %}
-{% set version = "0.20.2" %}
+{% set version = "0.21.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 6c3792e83f380d93f230370cfde1575fe8f873ee45ba6dc197c67d7842179985
+  sha256: d99517b9abbda6dc56af6740555413ce3f1f9c29906fc7cc429da2ec789d976f
 
 build:
   number: 0
