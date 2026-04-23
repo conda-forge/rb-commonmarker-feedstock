@@ -10,7 +10,7 @@ source:
   sha256: 6c3792e83f380d93f230370cfde1575fe8f873ee45ba6dc197c67d7842179985
 
 build:
-  number: 0
+  number: 1
   script:
     - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem
     - gem unpack {{ name }}-{{ version }}.gem
